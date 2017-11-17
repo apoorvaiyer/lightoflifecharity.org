@@ -1,89 +1,104 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Light Of Life Trust</title>
-        <link rel="stylesheet" href="assets/css/main.css" type="text/css">
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    </head>
-    <body>
-        <div class="loltnav">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="assets/images/lolt_logo_sm.png">
-                    <p>Light Of Life Trust</p>
-                </a>
-            </div>
-            <div class="mainmenu">
-                <a href="index.html">home</a>
-                <a href="program.html">program</a>
-                <a href="success-stories.html">success stories</a>
-                <a href="resources.html">resources</a>
-            </div>
+<head>
+    <title>Light Of Life Trust</title>
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="loltnav">
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/images/lolt_logo_sm.png">
+                <p>Light Of Life Trust</p>
+            </a>
         </div>
-        <div class="loltheader">
-            <h1>light of life trust</h1>
-            <div class="linedivide"></div>
-        </div>
-        <div class="loltpaypal">
-            <div class="infohead donate-head">
-                <h1>donate today!</h1>
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="paypal">
+        <div class="mainmenu">
+            <a href="index.html">home</a>
+            <a href="program.html">program</a>
+            <a href="success-stories.html">success stories</a>
+            <a href="resources.html">resources</a>
+            <a class="paypal-nav" onclick="document.getElementById('donate-form').submit();">
+                <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top" id="donate-form">
                     <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="UYZWTQ9VZPGNG">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    <input type="hidden" name="hosted_button_id" value="RLFHMCCWK2FV2">
+                    <input type="image" src="assets/images/donate-button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
-            </div>  
+            </a>
         </div>
-        <div class="loltinfo">
-            <div class="infohead">
-                <h1>our story</h1>
-            </div>
-            <div class="infobody">
-                <h4>about us</h4>
-                <p>
-                    It began with a small group of five concerned individuals who wanted to reach out to women and children - the most vulnerable section of the Indian rural society. The goal was to empower this section of society with sustainable and supportive programmes. With Villy Doctor as the founding member, The Light of Life Trust, a non-government organisation came into existence in 2002. The key steps were to educate, empower and equip, so as to lead to long-term change.
-                </p>
-            </div>
+    </div>
+    <div class="loltheader">
+        <h1>light of life trust</h1>
+        <div class="linedivide"></div>
+    </div>
+    <div class="loltinfo">
+        <div class="infohead">
+            <h1>our story</h1>
         </div>
-        <div class="loltfooter">
-            <div class="row">
-                <div class="col-md-3 col-sm-3">
-                    <img src="assets/images/lolt_logo_sm.png">
-                </div>
-                <div class="col-md-3 col-sm-3">
-                    <div class="footerinfo">
+        <div class="infobody">
+            <h4>about us</h4>
+            <p>
+                It began with a small group of five concerned individuals who wanted to reach out to women and children - the most vulnerable
+                section of the Indian rural society. The goal was to empower this section of society with sustainable and
+                supportive programmes. With Villy Doctor as the founding member, The Light of Life Trust, a non-government
+                organisation came into existence in 2002. The key steps were to educate, empower and equip, so as to lead
+                to long-term change.
+            </p>
+        </div>
+    </div>
+    <div class="loltfooter">
+        <div class="row">
+            <div class="col-md-3 col-sm-3">
+                <img src="assets/images/lolt_logo_sm.png">
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="footerinfo">
                     <h2>
-                        full website:<br><a href="http://www.lightoflifetrustindia.org" target="_blank">light of life india</a>
+                        full website:
+                        <br>
+                        <a href="http://www.lightoflifetrustindia.org" target="_blank">light of life india</a>
                     </h2>
                     <h2>
-                        Email:<br><a href="mailto:shiraz.zack@gmail.com">shiraz.zack@gmail.com</a>
+                        Email:
+                        <br>
+                        <a href="mailto:shiraz.zack@gmail.com">shiraz.zack@gmail.com</a>
                     </h2>
-                    
-                </div>
-                </div>
-                <div class="col-md-3 col-sm-3">
-                    <div class="sitemap">
-                        <a href="index.html">home</a>
-                        <a href="program.html">program</a>
-                        <a href="success-stories.html">success stories</a>
-                        <a href="resources.html">resources</a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3">
-                    <p class="redcrosstext">Light of Life Trust a charitable org, is registered as a 501(c)(3) non-profit organization. Contributions to Light of Life Trust, a non-profit organization are tax-deductible to the extent permitted by law. The tax identification number is 20-5402443.</p>
+
                 </div>
             </div>
-            <div class="jackinfo">
-                <p>Website Created by: <a href="http://www.jacktilly.com" target="_blank">Jack Fintan Tilly</a></p>
+            <div class="col-md-3 col-sm-3">
+                <div class="sitemap">
+                    <a href="index.html">home</a>
+                    <a href="program.html">program</a>
+                    <a href="success-stories.html">success stories</a>
+                    <a href="resources.html">resources</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <p class="redcrosstext">Light of Life Trust a charitable org, is registered as a 501(c)(3) non-profit organization. Contributions
+                    to Light of Life Trust, a non-profit organization are tax-deductible to the extent permitted by law.
+                    The tax identification number is 20-5402443.</p>
             </div>
         </div>
-          
-         <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    </body>
+        <div class="jackinfo">
+            <p>Website Created by:
+                <a href="http://www.jacktilly.com" target="_blank">Jack Fintan Tilly</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

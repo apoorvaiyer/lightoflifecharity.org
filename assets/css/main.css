@@ -39,18 +39,20 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
     float: right;
     height: 80px;
     margin-right: 120px;
+    display: flex;
 }
 .loltnav .mainmenu a {
     padding: 28px 20px;
-    display: table-cell;
     color: #fff;
     font-size: 20px;
     text-decoration: none;
     text-transform: capitalize;
+    order: 1;
 }
 .loltnav .mainmenu a:hover {
-    color: #333;
+    background-color: #333;
     text-decoration: none;
+    cursor: pointer;
 }
 .loltheader h1 {
     text-transform: capitalize;
@@ -163,6 +165,13 @@ form.paypal:hover {
     color: #333;
     position: relative;
     top: 80px;
+}
+.paypal-nav {
+    display: table-cell;
+    padding: 0;
+}
+.paypal-nav input[type=image] {
+    height: 28px;
 }
 .loltfooter img {
     width: 100px;
