@@ -10,5 +10,6 @@ function hidepopup(intro) {
 function submitSubscription(specifiedPeriod) {
     var hiddenSponsorshipElement = document.getElementById('sponsorship-value');
     hiddenSponsorshipElement.value = specifiedPeriod;
+    document.getElementById('donate-form').submit();
     return true;
 }
