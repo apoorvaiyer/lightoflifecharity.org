@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
     font-size: 60px;
     font-weight: 300;
     margin: 0;
-    padding-top: 28%;
+    padding-top: 450px;
     color: #fff;
     padding-bottom: 20px;
     text-shadow: black 0em 0em 0.3em, black 0em 0em 0.3em, black 0em 0em 0.3em, black 0em 0em 0.3em;
@@ -83,8 +83,9 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
     margin: 0;
 }
 .loltheader {
-    background: url('../images/lolt_bg_1.jpg');
-    height: 600px;
+    background: url('../images/lolt_bg_1.jpg') no-repeat;
+    background-position-x: center;
+    height: 700px;
 }
 .infohead {
     color: #fff;
@@ -170,6 +171,7 @@ form.paypal:hover {
 .paypal-nav {
     display: table-cell;
     padding: 0;
+    width: 140px;
 }
 .paypal-nav input[type=image] {
     height: 28px;
@@ -287,4 +289,35 @@ form.paypal:hover {
     .loltfooter h2 {
         text-align: center;
     }
+}
+
+.paypal-nav form select.donate-dropdown {
+    display: none;
+}
+
+.paypal-nav ul {
+    padding: 0;
+    margin: 0;
+    margin-top: -11px;
+    margin-left: -20px;
+    list-style: none;
+    position: relative;
+}
+
+.paypal-nav ul li {
+    display: none;
+    background-color: #C02B1D;
+}
+
+.paypal-nav:hover ul li {
+    display: list-item;
+    float: none;
+    width: 10em;
+    height: 3.9em;
+    padding: 10px;
+    position: relative;
+}
+
+.paypal-nav ul li:hover {
+    background-color: #333;
 }

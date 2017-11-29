@@ -6,3 +6,9 @@ function hidepopup(intro) {
     var begin = 'popup' + intro;
     document.getElementById(begin).style.display = "none";
 }
+
+function submitSubscription(specifiedPeriod) {
+    var hiddenSponsorshipElement = document.getElementById('sponsorship-value');
+    hiddenSponsorshipElement.value = specifiedPeriod;
+    return true;
+}
