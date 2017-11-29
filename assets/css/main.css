@@ -313,9 +313,10 @@ form.paypal:hover {
 .paypal-nav ul li {
     display: none;
     background-color: #C02B1D;
+    color: white;
 }
 
-.paypal-nav:hover ul li {
+.paypal-nav:hover ul li, .paypal-nav.open ul li {
     display: list-item;
     float: none;
     width: 10em;

@@ -13,3 +13,7 @@ function submitSubscription(specifiedPeriod) {
     document.getElementById('donate-form').submit();
     return true;
 }
+
+function setSticky(elem) {
+    elem.classList.toggle('open');;
+}
