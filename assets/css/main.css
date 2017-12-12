@@ -19,11 +19,12 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
     background-color: #C02B1D;
     border-bottom: 1px solid #333;
     z-index: 2;
+    min-width: 1133px;
 }
 .loltnav .logo {
     height: 80px;
     float: left;
-    margin-left: 150px;
+    padding-left: 5%;
 }
 .loltnav .logo img {
     height: 79px;
