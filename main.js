@@ -14,6 +14,12 @@ function submitSubscription(specifiedPeriod) {
     return true;
 }
 
+function submitOneTimePayment() {
+    var oneTimePaymentForm = document.getElementById('single-donate-form');
+    oneTimePaymentForm.submit();
+    return true;
+}
+
 function setSticky(elem) {
     elem.classList.toggle('open');;
 }
